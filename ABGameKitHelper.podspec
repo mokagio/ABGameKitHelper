@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
   # against for this Pod to work.
   #
   # s.framework  = 'SomeFramework'
-  # s.frameworks = 'SomeFramework', 'AnotherFramework'
+  s.framework = 'GameKit'
 
   # Specify a list of libraries that the application needs to link
   # against for this Pod to work.
@@ -93,13 +93,4 @@ Pod::Spec.new do |s|
   # If this Pod uses ARC, specify it like so.
   #
   s.requires_arc = true
-
-  # If you need to specify any other build settings, add them to the
-  # xcconfig hash.
-  #
-  # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-
-  # Finally, specify any Pods that this Pod depends on.
-  #
-  # s.dependency 'JSONKit', '~> 1.4'
 end
